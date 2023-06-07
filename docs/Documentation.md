@@ -6,15 +6,20 @@
 In the initial phase, we have developed a budget estimate and envisioned the infrastructure of the application. Upon carefully reviewing the project requirements, we made a strategic decision to establish two private and two public subnets within the Virtual Private Cloud (VPC), spanning across two Availability Zones. The private subnets are exclusively designated for the database, with the second subnet serving as a reliable backup for the primary one. As for the application itself, we have positioned the EC2 instances within the public subnets. Adhering to best practices, we have securely housed the database within a private subnet, effectively restricting access beyond our specifically created VPC.
 
 To optimize resource utilization and maintain cost-efficiency, we will implement an autoscaling group for the two EC2 instances. Additionally, a single NAT gateway will be deployed to ensure prudent budget management, facilitating secure connectivity between the EC2 instances and the RDS database.
-![IMG-1482](https://github.com/rania-w/ibu-devops-engineering-on-aws-cloud-group-11/assets/92021975/291d5b11-0362-4704-b243-f7d1f1a9aef5)
 
+![IMG-1480](https://github.com/rania-w/ibu-devops-engineering-on-aws-cloud-group-11/assets/92021975/76cd7f46-dfe0-4385-bce4-9beb6d54eeb5)
 
 # Phase 2
 
 We initiated the creation of a Virtual Private Cloud (VPC) to establish a secure network environment for our application. Within the VPC, we configured two private subnets and two public subnets, enabling us to separate and manage different components effectively. An internet gateway was implemented to facilitate connectivity between the VPC and the internet, while route tables were set up to direct traffic within the VPC. Furthermore, a NAT gateway was deployed to enable secure outbound internet access for resources within the private subnets.
 
 Furthermore, we deployed an EC2 instance in a public subnet, configuring it to include both the application and the database. This setup allowed us to conduct tests on the application by inserting a small number of student records into the database.
+
+![IMG-1481](https://github.com/rania-w/ibu-devops-engineering-on-aws-cloud-group-11/assets/92021975/c1d8d402-384f-4703-b929-37f766bec11c)
+
 # Phase 3
+
+![IMG-1482](https://github.com/rania-w/ibu-devops-engineering-on-aws-cloud-group-11/assets/92021975/ac4c6988-1070-4de0-b71f-4450eb6732ec)
 
 # Problem statement:
 
