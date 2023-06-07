@@ -1,4 +1,7 @@
-﻿# Phase 1
+# Approach
+
+ 
+ # Phase 1
 
 In the initial phase, we have developed a budget estimate and envisioned the infrastructure of the application. Upon carefully reviewing the project requirements, we made a strategic decision to establish two private and two public subnets within the Virtual Private Cloud (VPC), spanning across two Availability Zones. The private subnets are exclusively designated for the database, with the second subnet serving as a reliable backup for the primary one. As for the application itself, we have positioned the EC2 instances within the public subnets. Adhering to best practices, we have securely housed the database within a private subnet, effectively restricting access beyond our specifically created VPC.
 
