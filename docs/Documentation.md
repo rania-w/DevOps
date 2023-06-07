@@ -11,7 +11,7 @@ We initiated the creation of a Virtual Private Cloud (VPC) to establish a secure
 Furthermore, we deployed an EC2 instance in a public subnet, configuring it to include both the application and the database. This setup allowed us to conduct tests on the application by inserting a small number of student records into the database.
 # Phase 3
 
-Problem statement:
+# Problem statement:
 
 ## Opportunity Statement:
 
