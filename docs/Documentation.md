@@ -6,6 +6,8 @@
 In the initial phase, we have developed a budget estimate and envisioned the infrastructure of the application. Upon carefully reviewing the project requirements, we made a strategic decision to establish two private and two public subnets within the Virtual Private Cloud (VPC), spanning across two Availability Zones. The private subnets are exclusively designated for the database, with the second subnet serving as a reliable backup for the primary one. As for the application itself, we have positioned the EC2 instances within the public subnets. Adhering to best practices, we have securely housed the database within a private subnet, effectively restricting access beyond our specifically created VPC.
 
 To optimize resource utilization and maintain cost-efficiency, we will implement an autoscaling group for the two EC2 instances. Additionally, a single NAT gateway will be deployed to ensure prudent budget management, facilitating secure connectivity between the EC2 instances and the RDS database.
+![IMG-1482](https://github.com/rania-w/ibu-devops-engineering-on-aws-cloud-group-11/assets/92021975/291d5b11-0362-4704-b243-f7d1f1a9aef5)
+
 
 # Phase 2
 
