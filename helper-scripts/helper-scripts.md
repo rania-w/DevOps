@@ -1,0 +1,1 @@
+The scripts here are identical to the ones found on the project. When creating the infrastructure we replaced DB credentials and the private IP address of the EC2 instance from Phase 2 with their actual values, and decided not to push them to github for security reasons.
