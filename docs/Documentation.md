@@ -19,6 +19,8 @@ Furthermore, we deployed an EC2 instance in a public subnet, configuring it to i
 
 # Phase 3
 
+During phase 3 of the project, we made the decision to create a new EC2 instance dedicated solely to running the application. In this phase, we utilized the script specifically designed for phase 3, excluding the creation of a database. Furthermore, we successfully established an RDS MySQL database, configured to allow traffic exclusively from the EC2 instance where the application is deployed. This ensures secure and controlled access. To facilitate the development process, we set up a Cloud9 environment. In this particular phase, the environment was primarily utilized to create a secret that securely stores the database credentials. This secret may potentially be utilized in phase 4 for load balancer testing. Regarding the database migration, we employed the following procedure: on the EC2 instance from phase 2, we extracted the database and its corresponding data into a file. Subsequently, we imported this file into the newly created RDS database to ensure a seamless transition.
+
 ![IMG-1482](https://github.com/rania-w/ibu-devops-engineering-on-aws-cloud-group-11/assets/92021975/ac4c6988-1070-4de0-b71f-4450eb6732ec)
 
 # Problem statement:
