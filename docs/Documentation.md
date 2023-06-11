@@ -23,6 +23,10 @@ During phase 3 of the project, we made the decision to create a new EC2 instance
 
 ![IMG-1482](https://github.com/rania-w/ibu-devops-engineering-on-aws-cloud-group-11/assets/92021975/ac4c6988-1070-4de0-b71f-4450eb6732ec)
 
+# Phase 4
+
+Due to challenges encountered in creatin an AMI, we decided to develop a launch template that closely resembles our fully operational EC2 instance. As part of our setup, we also incorporated an application load balancer while configuring the auto scaling group. To ensure its effectiveness, we conducted extensive testing by deliberately terminating instances and purposefully overloading the load balancer.
+
 # Problem statement:
 
 ## Opportunity Statement:
